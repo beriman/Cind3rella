@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.work/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+playwright-report/
+test-results/
+
+# Keep the original local source; public/downloads holds the versioned copy.
+/Cind3rella Profile V.3 new.pdf

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "tak-mengenal-usia",
+    "title": "Tak Mengenal Usia",
+    "year": "2025",
+    "date": "2025-02-28",
+    "duration": "4:00",
+    "apple": "https://music.apple.com/id/album/tak-mengenal-usia/1794535341?i=1794535344&uo=4",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/16/25/cc16256f-b360-4e5b-3499-3f7896c8df03/mzaf_2260210941967001454.plus.aac.p.m4a",
+    "art": "tak-mengenal-usia.webp"
+  },
+  {
+    "id": "cinta-segitiga",
+    "title": "Cinta Segitiga",
+    "year": "2024",
+    "date": "2024-06-27",
+    "duration": "3:23",
+    "apple": "https://music.apple.com/id/album/cinta-segitiga/1777288762?i=1777288763&uo=4",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/62/d5/1a62d5b9-7f40-403b-1498-4eb61ec36560/mzaf_4471193184702352970.plus.aac.p.m4a",
+    "art": "cinta-segitiga.webp"
+  },
+  {
+    "id": "tak-sehebat-dirimu",
+    "title": "Tak Sehebat Dirimu",
+    "year": "2024",
+    "date": "2024-03-15",
+    "duration": "3:51",
+    "apple": "https://music.apple.com/id/album/tak-sehebat-dirimu/1773048506?i=1773048509&uo=4",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/df/aa/9adfaa52-ad21-1d05-a758-451c5fe4b751/mzaf_11290357653418516625.plus.aac.p.m4a",
+    "art": "tak-sehebat-dirimu.webp"
+  },
+  {
+    "id": "bulan",
+    "title": "Bulan",
+    "year": "2024",
+    "date": "2024-02-25",
+    "duration": "4:03",
+    "apple": "https://music.apple.com/id/album/bulan/1733236225?i=1733236226&uo=4",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/d0/4d/3c/d04d3c5d-bba5-7b31-c641-34247d63d925/mzaf_18415791112405069585.plus.aac.p.m4a",
+    "art": "bulan.webp"
+  },
+  {
+    "id": "sampai-akhir-usia",
+    "title": "Sampai Akhir Usia",
+    "year": "2023",
+    "date": "2023-10-13",
+    "duration": "4:12",
+    "apple": "https://music.apple.com/id/album/sampai-akhir-usia/1773068151?i=1773068154&uo=4",
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/a1/21/bba121d1-d1ab-b487-a762-427fd62badce/mzaf_7962709795704866560.plus.aac.p.m4a",
+    "art": "sampai-akhir-usia.webp"
+  }
+]

@@ -1,0 +1,47 @@
+# Creator: Beriman Juliano
+name: Import approved visual assets
+on:
+  push:
+    branches: [visual-refresh-20261021]
+    paths: [.github/workflows/import-visual-assets.yml]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: visual-refresh-20261021
+      - name: Retrieve and verify final web assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 2 'https://sb-3cv45chsdcto.vercel.run/assets.zip' -o /tmp/cind3rella-assets.zip
+          echo 'd197170233364215504e90e33a9954cba54a290acc78d545a1e742e3eac8d184  /tmp/cind3rella-assets.zip' | sha256sum --check
+          python3 - <<'PY'
+          import hashlib, json, pathlib, zipfile
+          target = pathlib.Path('public/images/2026')
+          target.mkdir(parents=True, exist_ok=True)
+          with zipfile.ZipFile('/tmp/cind3rella-assets.zip') as archive:
+              manifest = json.loads(archive.read('manifest.json'))
+              assert manifest['creator'] == 'Beriman Juliano'
+              for item in manifest['assets']:
+                  name = item['file']
+                  assert pathlib.Path(name).name == name and name.endswith('.webp')
+                  data = archive.read(name)
+                  assert hashlib.sha256(data).hexdigest() == item['sha256']
+                  (target / name).write_bytes(data)
+              (target / 'manifest.json').write_text(json.dumps(manifest, indent=2))
+          PY
+      - name: Commit only approved image assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Beriman Juliano'
+          git config user.email '22643215+beriman@users.noreply.github.com'
+          git add public/images/2026
+          git diff --cached --quiet && exit 0
+          git commit -m 'Add ten approved cinematic and retouched studio assets'
+          git push origin HEAD:visual-refresh-20261021

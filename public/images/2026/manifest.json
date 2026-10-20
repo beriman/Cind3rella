@@ -1,0 +1,96 @@
+{
+  "creator": "Beriman Juliano",
+  "version": "2026-10-21",
+  "assets": [
+    {
+      "file": "hero-cinematic.webp",
+      "source": "dreamy_purple_pink_concert_trio.png",
+      "creator": "Beriman Juliano",
+      "width": 1672,
+      "height": 941,
+      "bytes": 162402,
+      "sha256": "15925adbeadf036b274b6f8da0f09e3daf6fa15f98f7418217a01b99450c7353"
+    },
+    {
+      "file": "moonlit-trio.webp",
+      "source": "moonlit_trio_on_the_neon_stage.png",
+      "creator": "Beriman Juliano",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 187008,
+      "sha256": "ab2968a9f27ba6f4c580d41b29076a2c2c6494e0866cf096d29abfd36e78079b"
+    },
+    {
+      "file": "studio-denim.webp",
+      "source": "stylish_trio_in_denim_studio_portrait.png",
+      "creator": "Beriman Juliano",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 154370,
+      "sha256": "fe7e6880866d6cd2857337409182e8b88f91196de4953c67a77d4888bdc51841"
+    },
+    {
+      "file": "studio-golden.webp",
+      "source": "golden_trio_in_studio_light.png",
+      "creator": "Beriman Juliano",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 142664,
+      "sha256": "b1cac53b41f756ba48cc6392dc7267407d2b95e97ea42e8258978ecf3bc2e476"
+    },
+    {
+      "file": "studio-cool.webp",
+      "source": "cool_denim_trio_studio_portrait.png",
+      "creator": "Beriman Juliano",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 151482,
+      "sha256": "8c89d880a2d3d06f4fed921561520d3b8d9d3467a1eb0f0130016dc86270d73e"
+    },
+    {
+      "file": "studio-full.webp",
+      "source": "denim_trio_studio_portrait.png",
+      "creator": "Beriman Juliano",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 106944,
+      "sha256": "cd3dc356582c4141fb2670d1318cc429f2bb9fa7af1ca9d7850f34c113b5f095"
+    },
+    {
+      "file": "solo-blazer.webp",
+      "source": "sleek_two_tone_blazer_studio_portrait.png",
+      "creator": "Beriman Juliano",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 40268,
+      "sha256": "81b2bf7637ee8753ba290041f89d9763724b5c774b1bc9fcbb8bb13297fe0ac5"
+    },
+    {
+      "file": "solo-streetwear.webp",
+      "source": "cool_monochrome_streetwear_portrait.png",
+      "creator": "Beriman Juliano",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 63570,
+      "sha256": "924aee45eff4005c2ddd1b44743738e4fffb4a01850628d5f1ddaed69b1945e4"
+    },
+    {
+      "file": "solo-pink.webp",
+      "source": "pastel_moto_jacket_studio_portrait.png",
+      "creator": "Beriman Juliano",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 89232,
+      "sha256": "cfd102cc6c15a644de157855c9a7e30268def2617de97d2eaf8289bc32cbc931"
+    },
+    {
+      "file": "studio-editorial.webp",
+      "source": "editorial_trio_studio_portrait.png",
+      "creator": "Beriman Juliano",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 119942,
+      "sha256": "71af83a0459007070d1c0e773d373d267ee6193a8ffea0b4473c0482a5a64314"
+    }
+  ]
+}

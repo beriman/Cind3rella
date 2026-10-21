@@ -9,7 +9,8 @@
       "width": 1672,
       "height": 941,
       "bytes": 162402,
-      "sha256": "15925adbeadf036b274b6f8da0f09e3daf6fa15f98f7418217a01b99450c7353"
+      "sha256": "15925adbeadf036b274b6f8da0f09e3daf6fa15f98f7418217a01b99450c7353",
+      "source_kind": "generative-promotional-artwork"
     },
     {
       "file": "moonlit-trio.webp",
@@ -18,7 +19,8 @@
       "width": 1122,
       "height": 1402,
       "bytes": 187008,
-      "sha256": "ab2968a9f27ba6f4c580d41b29076a2c2c6494e0866cf096d29abfd36e78079b"
+      "sha256": "ab2968a9f27ba6f4c580d41b29076a2c2c6494e0866cf096d29abfd36e78079b",
+      "source_kind": "generative-promotional-artwork"
     },
     {
       "file": "studio-denim.webp",
@@ -27,7 +29,8 @@
       "width": 1122,
       "height": 1402,
       "bytes": 154370,
-      "sha256": "fe7e6880866d6cd2857337409182e8b88f91196de4953c67a77d4888bdc51841"
+      "sha256": "fe7e6880866d6cd2857337409182e8b88f91196de4953c67a77d4888bdc51841",
+      "source_kind": "ai-assisted-studio-retouch"
     },
     {
       "file": "studio-golden.webp",
@@ -36,7 +39,8 @@
       "width": 1122,
       "height": 1402,
       "bytes": 142664,
-      "sha256": "b1cac53b41f756ba48cc6392dc7267407d2b95e97ea42e8258978ecf3bc2e476"
+      "sha256": "b1cac53b41f756ba48cc6392dc7267407d2b95e97ea42e8258978ecf3bc2e476",
+      "source_kind": "ai-assisted-studio-retouch"
     },
     {
       "file": "studio-cool.webp",
@@ -45,7 +49,8 @@
       "width": 1024,
       "height": 1536,
       "bytes": 151482,
-      "sha256": "8c89d880a2d3d06f4fed921561520d3b8d9d3467a1eb0f0130016dc86270d73e"
+      "sha256": "8c89d880a2d3d06f4fed921561520d3b8d9d3467a1eb0f0130016dc86270d73e",
+      "source_kind": "ai-assisted-studio-retouch"
     },
     {
       "file": "studio-full.webp",
@@ -54,7 +59,8 @@
       "width": 1024,
       "height": 1536,
       "bytes": 106944,
-      "sha256": "cd3dc356582c4141fb2670d1318cc429f2bb9fa7af1ca9d7850f34c113b5f095"
+      "sha256": "cd3dc356582c4141fb2670d1318cc429f2bb9fa7af1ca9d7850f34c113b5f095",
+      "source_kind": "ai-assisted-studio-retouch"
     },
     {
       "file": "solo-blazer.webp",
@@ -63,7 +69,8 @@
       "width": 1024,
       "height": 1536,
       "bytes": 40268,
-      "sha256": "81b2bf7637ee8753ba290041f89d9763724b5c774b1bc9fcbb8bb13297fe0ac5"
+      "sha256": "81b2bf7637ee8753ba290041f89d9763724b5c774b1bc9fcbb8bb13297fe0ac5",
+      "source_kind": "ai-assisted-studio-retouch"
     },
     {
       "file": "solo-streetwear.webp",
@@ -72,7 +79,8 @@
       "width": 1024,
       "height": 1536,
       "bytes": 63570,
-      "sha256": "924aee45eff4005c2ddd1b44743738e4fffb4a01850628d5f1ddaed69b1945e4"
+      "sha256": "924aee45eff4005c2ddd1b44743738e4fffb4a01850628d5f1ddaed69b1945e4",
+      "source_kind": "ai-assisted-studio-retouch"
     },
     {
       "file": "solo-pink.webp",
@@ -81,7 +89,8 @@
       "width": 1024,
       "height": 1536,
       "bytes": 89232,
-      "sha256": "cfd102cc6c15a644de157855c9a7e30268def2617de97d2eaf8289bc32cbc931"
+      "sha256": "cfd102cc6c15a644de157855c9a7e30268def2617de97d2eaf8289bc32cbc931",
+      "source_kind": "ai-assisted-studio-retouch"
     },
     {
       "file": "studio-editorial.webp",
@@ -90,7 +99,8 @@
       "width": 1448,
       "height": 1086,
       "bytes": 119942,
-      "sha256": "71af83a0459007070d1c0e773d373d267ee6193a8ffea0b4473c0482a5a64314"
+      "sha256": "71af83a0459007070d1c0e773d373d267ee6193a8ffea0b4473c0482a5a64314",
+      "source_kind": "creative-ai-edit"
     }
   ]
 }

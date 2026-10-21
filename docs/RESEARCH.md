@@ -1,3 +1,9 @@
+---
+creator: Beriman Juliano
+---
+
+> Catatan edisi 21 Oktober 2026: dokumen ini mempertahankan hasil riset awal bertanggal 24 September. Kebijakan visual versi awal di bagian arah kreatif telah digantikan atas permintaan pemilik: kini artwork generatif dan retouch studio ditampilkan secara eksplisit. Lihat ASSETS.md. Pembaruan ini tidak mengklaim pemeriksaan ulang seluruh media sosial.
+
 # Cind3rella — riset editorial dan kanal publik
 
 Tanggal pemeriksaan: 24 September 2026. Cakupan: profil yang diberikan pemilik proyek, halaman publik, katalog musik, dan hasil pencarian web. Ini bukan akses analitik internal atau audit seluruh unggahan historis.

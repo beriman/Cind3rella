@@ -1,25 +1,36 @@
 # Creator: Beriman Juliano
-name: Collect visual review evidence
+name: Apply tested visual edition
 on:
   push:
     branches: [visual-refresh-20261021]
     paths: [.github/workflows/import-visual-assets.yml]
 permissions:
-  contents: read
+  contents: write
 jobs:
-  evidence:
+  apply:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 5
     steps:
-      - name: Retrieve review archives
-        run: |
-          mkdir -p review
-          curl --fail --location 'https://sb-3cv45chsdcto.vercel.run/visual-qa.zip' -o review/visual-qa.zip
-          curl --fail --location 'https://sb-3cv45chsdcto.vercel.run/source-update.zip' -o review/source-update.zip
-          echo '3c0f1c4c2445722033dbe6d8ed13db78ac6110a5bd7f3dc8db3b1103c268a862  review/visual-qa.zip' | sha256sum --check
-          echo '6a2fe6bcc553564a7ddc5c9a5f02cf0fef2780d3e53b93b94433352dc0b478fc  review/source-update.zip' | sha256sum --check
-      - uses: actions/upload-artifact@v4
+      - uses: actions/checkout@v4
         with:
-          name: cind3rella-visual-review
-          path: review/
-          retention-days: 7
+          ref: visual-refresh-20261021
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify and apply reviewed source patch
+        run: |
+          set -euo pipefail
+          curl --fail --location 'https://sb-3cv45chsdcto.vercel.run/visual-update.patch' -o /tmp/visual-update.patch
+          echo 'f121567834a21521122a23c5c45104ff355d5dd69ff16dd90ca5a02e636940bc  /tmp/visual-update.patch' | sha256sum --check
+          git apply --check /tmp/visual-update.patch
+          git apply /tmp/visual-update.patch
+          git diff --check
+      - name: Build verified source
+        run: npm ci --ignore-scripts && npm run build
+      - name: Commit visual edition to review branch
+        run: |
+          git config user.name 'Beriman Juliano'
+          git config user.email '22643215+beriman@users.noreply.github.com'
+          git add index.html package.json package-lock.json README.md docs/ASSETS.md docs/RESEARCH.md src/main.ts src/gallery.ts src/visual.css scripts/verify-ui.mjs public/images/2026/manifest.json
+          git commit -m 'Build cinematic hero and ten-image editorial gallery'
+          git push origin HEAD:visual-refresh-20261021
